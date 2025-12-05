@@ -26,7 +26,14 @@ const uint32_t WIFI_RECONNECT_TIMEOUT = 10000;   // 10 segundos para intentar re
 // ==============================
 // VARIABLES GLOBALES
 // ==============================
-String device_id = "DC155";
+String device_id = "GEN-SM002";;
+
+//"GEN-SM001";
+//"GEN-SM002";
+//"GEN-SM003";
+//"MBR-SM001";
+//"MEBR-SM001";
+
 String deviceDiagnostic = "DC127";
 bool enable_remote_api = true;
 uint32_t last_api_send = 0;
